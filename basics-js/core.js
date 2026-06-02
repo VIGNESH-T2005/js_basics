@@ -52,3 +52,14 @@ obj1.name = "Bob";
 console.log(obj1.name); // Output: Bob
 delete obj1.age;
 console.log(obj1); // Output: { name: "Bob" }  
+
+
+// 4. string operators
+let str1 = "Hello, ";
+let str2 = "world!";
+console.log(str1 + str2); // Output: Hello, world!
+console.log(str1.length); // Output: 7
+console.log(str1.toUpperCase()); // Output: HELLO, 
+console.log(str1.toLowerCase()); // Output: hello, 
+console.log(str1.includes("lo")); // Output: true
+console.log(str1.indexOf("o")); // Output: 4    

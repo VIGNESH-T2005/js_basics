@@ -72,15 +72,7 @@ console.log(p << 1); // Output: 10 (shifts bits of 5 to the left by 1, resulting
 console.log(p >> 1); // Output: 2 (shifts bits of 5 to the right by 1, resulting in 0010 in binary, which is 2 in decimal)
 console.log(p >>> 1); // Output: 2 (shifts bits of 5 to the right by 1, filling with zeros, resulting in 0010 in binary, which is 2 in decimal) 
 
-// 4. string operators
-let str1 = "Hello, ";
-let str2 = "world!";
-console.log(str1 + str2); // Output: Hello, world!
-console.log(str1.length); // Output: 7
-console.log(str1.toUpperCase()); // Output: HELLO, 
-console.log(str1.toLowerCase()); // Output: hello, 
-console.log(str1.includes("lo")); // Output: true
-console.log(str1.indexOf("o")); // Output: 4    
+
 
  
 
