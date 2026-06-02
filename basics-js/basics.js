@@ -82,29 +82,7 @@ console.log(str1.toLowerCase()); // Output: hello,
 console.log(str1.includes("lo")); // Output: true
 console.log(str1.indexOf("o")); // Output: 4    
 
-// 5. array operators
-let arr1 = [1, 2, 3];
-let arr2 = [4, 5, 6];
-console.log(arr1.concat(arr2)); // Output: [1, 2, 3, 4, 5, 6]
-console.log(arr1.length); // Output: 3  
-console.log(arr1.push(4)); // Output: 4 (new length of the array)
-console.log(arr1); // Output: [1, 2, 3, 4]
-console.log(arr1.pop()); // Output: 4 (removed element)
-console.log(arr1); // Output: [1, 2, 3]
-console.log(arr1.includes(2)); // Output: true
-console.log(arr1.indexOf(3)); // Output: 2
-
-// 6. object operators
-let obj1 = { name: "Alice", age: 25 };
-let obj2 = { city: "New York", country: "USA" };
-let mergedObj = { ...obj1, ...obj2 };
-console.log(mergedObj); // Output: { name: "Alice", age: 25, city: "New York", country: "USA" }
-console.log(obj1.name); // Output: Alice
-console.log(obj1["age"]); // Output: 25
-obj1.name = "Bob";
-console.log(obj1.name); // Output: Bob
-delete obj1.age;
-console.log(obj1); // Output: { name: "Bob" }   
+ 
 
 // 7. type coercion
 console.log(5 + "5");   // Output: "55" (number 5 is coerced to a string)
