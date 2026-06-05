@@ -1,5 +1,5 @@
 Phase 1: Fundamentals
-Variables (var, let, const) 
+Variables (var, let, const)   
 Data Types
 Operators
 Input & Output

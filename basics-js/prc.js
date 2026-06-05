@@ -1,11 +1,10 @@
-const obj1={
-    id   : 1,
-    title: "vicky"
-};
-const obj2 ={
-    age:20,
-    city:"neyveli"
+/*const add = (a,b) =>{
+    return a + b;
 }
-const title=obj1.title
-const mergobj={title,...obj2}
-console.log(mergobj)
+const addition =add(5,10);
+console.log(addition);
+
+let string = 'vignesh'
+let reversedstr= string.split('').reverse().join('');
+console.log(reversedstr);
+*/
