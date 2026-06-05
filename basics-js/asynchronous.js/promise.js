@@ -29,3 +29,6 @@ const newPromise= new Promise((resolve,reject)=>{
     },1000)
 });
 newPromise.then(()=>{console.log('success')}).catch(()=>{console.log('failure')});
+
+// in built promises
+
