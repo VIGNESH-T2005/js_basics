@@ -1,7 +1,7 @@
 // maps in arrays
-
+// this method operates on each element of the array and returns a new array 
 const arr1 = [1, 2, 3];
-const mappedArr = arr1.map((num) => num * 2);
+const mappedArr = arr1.map((num) => num + 2);
 console.log(mappedArr);
 
 const arr2= ["apple", "banana", "cherry"];
