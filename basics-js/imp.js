@@ -1,9 +1,5 @@
-// call back function
-function vicky(){
-    console.log('hi hello')
-}
-vicky();
 
+// call back function
 setTimeout(()=>{
     console.log(1)
     setTimeout( ()=>{
@@ -15,6 +11,18 @@ setTimeout(()=>{
     ,2000)
 }
 ,1000)
-// function is given input parameter to another function is call back functionn which is used untill es5+
+
+//Promises
+
+const myPromise = new Promise((resolve,reject)=>{
+    let num = 333;
+    if(num%2===0) resolve();
+        else reject();
+});
+
+myPromise.then(()=>{console.log('Success')}).catch(()=>{console.log('Failure')});
 
 
+// existing inbuild promises
+
+const url = ''
