@@ -32,12 +32,3 @@ const newPromise= new Promise((resolve,reject)=>{
 });
 newPromise.then(()=>{console.log('success')}).catch(()=>{console.log('failure')});
 
-// in built promises
-const url = 'https://jsonplaceholder.typicode.com/users/';
-fs.promises.readFile('txt1.txt','utf-8')
-.then((data)=>{console.log(data)})
-.catch((err)=>{console.log(err)});
-
-axios.get(url+ 1)
-.then((response)=>{console.log(response.data);})
-.catch((error)=>{console.log(error)});   

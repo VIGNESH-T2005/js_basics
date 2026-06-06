@@ -11,4 +11,5 @@ function outerFunction() {
 }
 const closureFunction = outerFunction();
 closureFunction(); 
-
+s
+c
